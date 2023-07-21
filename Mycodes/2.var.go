@@ -36,4 +36,12 @@ func main() {
 
 	fmt.Println("The global variables:", n1, n2, n3, n4, name1, name2)
 	fmt.Println(name1+name2)
+
+	var big uint64
+	big = 0
+	fmt.Println(big-1)
+
+	var char byte //byte 0-255
+	char = 64
+	fmt.Println(char) 
 }
