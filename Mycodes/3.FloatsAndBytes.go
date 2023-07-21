@@ -15,5 +15,15 @@ func main() {
 	var num2 float64 = -123.0000901
 	fmt.Println("num1=", num1, "num2=", num2)
 	fmt.Printf("You can use %%T to check var's type, %T\n", num2)
-	fmt.Printf("printf:%f", num2)
+	fmt.Printf("printf:%f\n", num2)
+	fmt.Println("--------------------------------------------------------------")
+	//About Byte
+	var char1 byte = 'a'
+	//var char2 byte = '0'
+	fmt.Printf("%T\n",char1)
+	fmt.Println(char1)//This will print alphabet a's ASCII 97
+	fmt.Printf("Char1=%c\n", char1) //This will print a
+	//The character in Go use UTF-8 : http://www.mytju.com/classcode/tools/encode_utf8.asp
+	var c4 int = 22269 //22269-> '国'
+	fmt.Printf("c4=%c\n", c4)
 }	
